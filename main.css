@@ -54,3 +54,18 @@
     text-decoration: none;
     color: grey;
 }
+
+.menu-list {
+ font-weight: 700;
+  font-size: 18px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+}
+
+.menu-item {
+display: flex;
+ font-weight: 400;
+  font-size: 12px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+}
