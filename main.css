@@ -117,7 +117,7 @@ display: flex;
   height: 120px;
     border: 1px solid #eeeeee;
     border-radius: 2px;
-    margin-bottom: 50px;
+    margin-bottom: 40px;
     margin-right: 30px;
     /* cursor: pointer; */
 }
@@ -136,4 +136,27 @@ display: flex;
 
 }
 
+.menu-img {
+  width: 150px;
+  height: 150px;
+}
 
+.price {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.menu-list-title {
+  font-weight: 700;
+  font-size: 15px;
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+
+.menu-description {
+  font-weight: normal;
+  font-size: 12px;
+  margin-bottom: 10px;
+}
