@@ -41,7 +41,9 @@ img {
     z-index: -1; */
 }
 
-
+.map {
+  text-align: center;
+}
 .section {
    text-align: center;
    padding-top: 50px;
@@ -114,7 +116,7 @@ display: flex;
 
 .menu-items {
   width: 120px;
-  height: 120px;
+
     border: 1px solid #eeeeee;
     border-radius: 2px;
     margin-bottom: 40px;
