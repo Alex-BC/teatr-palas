@@ -1,6 +1,5 @@
 const productsBtn = document.querySelectorAll('.product__btn');
 const cartProductsList = document.querySelector('.cart-content__list');
-
 const fullPrice = document.querySelector('.fullprice');
 let price = 0;
 
@@ -42,15 +41,14 @@ const generateCartProduct = (img, title, price) => {
                 </div>
                 
             </div>
-        </li>
-        <button class="product__del">Удалить</button>
+            <button class="product__del">Удалить</button>
+        </li>   
 	`;
 };
 
 const deleteProducts = productParent => {
-  //   let id = productParent.querySelector('.product').dataset.id;
-  //   document
-  //     .querySelector(`.product[data-id="${id}"]`)
+  // let id = productParent.querySelector('.product').dataset.id;
+  // document.querySelector(`.product[data-id="${id}"]`);
   //     .querySelector('.product__btn').disabled = false;
 
   let currentPrice = parseInt(
