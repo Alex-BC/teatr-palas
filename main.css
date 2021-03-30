@@ -162,3 +162,12 @@ display: flex;
   font-size: 12px;
   margin-bottom: 10px;
 }
+
+.online {
+  text-align: center;
+}
+
+.online-player {
+  border-radius:5px;
+  border: 0;
+}
